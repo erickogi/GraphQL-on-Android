@@ -91,7 +91,6 @@ public class MainFragment extends Fragment {
                         layoutManager.setReverseLayout(true);
                         layoutManager.setStackFromEnd(true);
 
-                        Toast.makeText(getContext(), "" + response.data().allPosts().get(0).title(), Toast.LENGTH_SHORT).show();
                     }
                 });
             }
